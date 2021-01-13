@@ -1,0 +1,16 @@
+{
+  "name": "internship-test",
+  "version": "1.0.0",
+  "description": "An endpoint that takes a csv file as payload and return a manipulated json array",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1"
+  }
+}
